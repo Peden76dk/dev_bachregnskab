@@ -326,7 +326,7 @@ header {
 .service h3{
     font-size:38px;
     margin-bottom:15px;
-    width: 450px;
+    width:auto;
 }
 
 .service p{
@@ -336,7 +336,8 @@ header {
 /* DIGITAL */
 
 .digital-box{
-    width:1400px; 
+    width:80%; 
+    max-width:1400px;
     background:#eaf0f7;
     border-radius:25px;
     padding:35px;
@@ -346,13 +347,13 @@ header {
     margin:60px auto;
 }
 
-
+/*
 @media (max-width:768px){
     .digital-box{
         width:300px; 
     }
 }
-
+*/
 
 .digital-icon{
     font-size:60px;

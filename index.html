@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bach Regnskab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</header>
+
+
+<body>
+
+<section class="hero">
+        <div class="container topbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div> <!--logo-->
+        <div class="contact-info">
+                <span>📞 42 48 90 82</span>
+                <span>✉ <a href="mailto:bachregnskab@outlook.dk">bachregnskab@outlook.dk</a></span>
+                <a href="#kontakt" class="btn">Kontakt mig</a>
+            </div> <!--contact-info-->
+        </div> <!--container topbar-->
+
+    <div class="container">
+        <div class="header-content">
+            <h1>Regnskab med ro,<br>overblik og personlig service</h1>
+            <p> Jeg hjælper dig med bogføring, moms, regnskab og økonomi – så du kan fokusere på din virksomhed. </p>
+            <a href="#kontakt" class="btn">Kontakt mig →</a>
+        </div>
+    </div>
+
+    <svg class="wave-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <defs>
+            <path id="wave"
+                d="M100,93
+                    Q75,107 50,93
+                    Q25,79 0,93" />
+            <clipPath id="waveClip" clipPathUnits="objectBoundingBox">
+                <path d="
+                    M0,0
+                    L1,0
+                    L1,0.93
+                    Q0.75,1.07 0.50,0.93
+                    Q0.25,0.79 0.00,0.93
+                    Z"/>
+            </clipPath>
+        </defs>
+
+        <use href="#wave"
+            stroke="#d9a12d"
+            stroke-width="0.5"
+            fill="none"/>
+    </svg>
+</section> <!-- end class="hero" -->
+
+
+<section class="about" id="om">
+
+    <div class="container">
+
+        <div class="about-grid">
+
+            <div class="about-image">
+                <img src="images/annbach.png" alt="Ann Bach">
+            </div> <!-- class="about-image" -->
+
+            <div class="about-text">
+                <h2>Om Bach Regnskab</h2>
+                <p>
+                    Jeg hedder Ann Bach Larsen, og har arbejdet inden for revisions- og økonomibranchen i over 16 år. Jeg brænder for at gøre en forskel for mine kunder, og for at optimere deres bogholderi, så tingene glider nemmest muligt. 
+                    <br><br>
+                    Jeg mener, at det nemmeste for en kunde, at have en revisor som kan lave alt fra A-Z. Dvs. revisoren forstår helheden af kundens virksomhed og behov - hvilket er forskelligt fra kunde til kunde. Dette gør det nemmere for kunden at vide, hvor man skal henvende sig, når der er brug for sparring eller hjælp.
+                    <br><br>
+                    Jeg kan tilbyde hele pakken inden for bogføring og regnskab. Dvs. alt inden for fakturering, bogføring, lønadministration, moms, regnskabsudarbejdelse, skat og økonomisk rådgivning. Og dette gælder uanset hvor i landet din virksomhed befinder sig, da jeg også tilbyder online møder.
+                    <br><br>
+                    Jeg sætter en dyd i at levere et godt arbejde af høj kvalitet, og ud fra erfaring, er det altid til minimum samme niveau som de store revisionshuse, men til en fair og konkurrencedygtig pris.
+                    <br><br>
+                    Med nærvær, høj faglighed og personlig tilgang til tingene sikrer jeg, at du får en samarbejdspartner, der forstår din hverdag og dine behov, og ønsker at gøre en forskel for din virksomhed - så du får tid til at gøre det du er god til, og synes er sjovt i din virksomhed. 
+                </p>
+            
+                <div class="about-signature">
+                    <!-- Sammen skaber vi overblik (buet) -->
+                    <head>
+                        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+                    </head>
+                        <svg width="1000" height="120" viewBox="0 0 1000 220">
+                            <path
+                                id="curve"
+                                d="M 50 80 Q 250 20 850 180"
+                                pathLength="100"
+                                fill="none" />
+
+    <!-- Buet streg under 50% af teksten -->
+        <use href="#curve"
+            transform="translate(0, 22)"
+            stroke="#d9a12d"
+            stroke-width="4"
+            stroke-linecap="round"
+            fill="none"
+            pathLength="100"
+            stroke-dasharray="35 100"
+            stroke-dashoffset="-32.5" />
+
+                            <!-- Teksten -->    
+                            <text
+                                font-size="95"
+                                fill="#0a2f6b"
+                                font-family="Allura">
+                                <!--font-family="Brush Script MT, cursive"> -->
+                                <textPath href="#curve" startOffset="50%" text-anchor="middle">
+                                    Sammen skaber vi overblik !
+                                </textPath>
+                            </text>
+                        </svg>
+                </div> <!-- class="about-signature" -->
+            </div> <!-- class="about-text" -->
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="services" id="ydelser">
+
+    <div class="container">
+        <h2 class="section-title">  Mine ydelser  </h2>
+
+        <div class="service-grid">
+
+        <div class="service">
+        <!-- <div class="service-icon">🧮</div> -->
+            <div class="service-icon">
+                <img src="images/bach_calc.png" alt="Bogføring og moms">
+            </div>
+        <h3>Bogføring og moms</h3>
+        <p>Effektiv og korrekt bogføring tilpasset din virksomhed.</p>
+        </div>
+
+        <div class="service">
+        <!--<div class="service-icon">📄</div>-->
+            <div class="service-icon">
+                <img src="images/bach_pct-sheet.png" alt="Regnskab, lønsum og skat">
+            </div>
+        <h3>Regnskab, lønsum og skat</h3>
+        <p>Få styr på regnskab, lønsum og skat.</p>
+        </div>
+
+        <div class="service">
+        <!--<div class="service-icon">🤝</div>-->
+            <div class="service-icon">
+                <img src="images/bach_handshake.png" alt="Regnskabsrådgivning">
+            </div>
+        <h3>Regnskabsrådgivning</h3>
+        <p>Rådgivning der skaber overblik og værdi.</p>
+        </div>
+
+        </div>
+
+    <div class="digital-box">
+        <div class="digital-icon">💻</div>
+
+        <div>
+            <h3>Et fleksibelt, digitalt samarbejde</h3>
+            <p>Vi kan klare bilag, afklaringer og dialog digitalt, uanset hvor i landet virksomheden ligger. </p>
+        </div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="kontakt">
+
+<div class="container">
+
+<h2>Kontakt mig</h2>
+
+<p> Har du spørgsmål eller ønsker at høre mere?
+<br>Jeg står klar til at hjælpe dig.
+</p>
+
+<div class="contact-row">
+<span>📞 42 48 90 82</span>
+<span>✉ <a href="mailto:bachregnskab@outlook.dk">bachregnskab@outlook.dk</a></span>
+<span>📍 Tryvej 28, 9320 Hjallerup</span>
+</div>
+
+<!-- <a href="#" class="btn"> 
+    Send en besked →
+</a> -->
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+    <footer class="site-footer">
+  <!-- Bølget topkant med gylden streg -->
+  <div class="footer-wave">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+      <!-- Den mørkeblå fyld-form til selve footeren -->
+      <path d="M0,50 C25,115 35,115 50,50 C65,-15 75,-15 100,50 L100,100 L0,100 Z" fill="#0a2f6b" />
+      <!-- Den gyldne streg langs bølgens top -->
+      <!-- <path d="M0,45 Q25,85 50,45 Q75,5 100,45"       -->
+          <path d="M0,50 C25,115 35,115 50,50 C65,-15 75,-15 100,50"
+            stroke="#d9a12d" 
+            stroke-width="4" 
+            vector-effect="non-scaling-stroke" 
+            fill="none" />
+    </svg>
+  </div>
+
+  <!-- Selve indholdet i footeren -->
+  <div class="footer-content">
+    <div class="footer-logo">
+        <img src="images/logo_blue.png" alt="">
+    </div>
+    <div class="footer-col">
+      <h3>Bach Regnskab</h3>
+      <p>Sammen skaber vi overblik i din hverdag og økonomi.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Genveje</h3>
+      <ul>
+        <li><a href="#">Forside</a></li>
+        <li><a href="#ydelser">Mine ydelser</a></li>
+        <li><a href="#om">Om mig</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Kontakt</h3>
+      <p>Telefon: +45 42 48 90 82</p>
+      <p>E-mail: <a href="mailto:bachregnskab@outlook.dk">bachregnskab@outlook.dk</a></p>
+      <p>CVR: 46 82 78 99</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Bach Regnskab. Alle rettigheder forbeholdes.</p>
+  </div>
+</footer>
+
+</div>
+
+</footer>
+
+</body>
+</html>
+
+
+<!--
+<div class="wave">
+    <svg viewBox="0 0 1440 140">
+        <path fill="#ffffff" d="M0,64 C250,150 480,0 720,64 C960,128 1200,0 1440,64 L1440,140 L0,140 Z"></path>
+    </svg>
+</div>
+-->
+
+<!-- Orange bølgemde linie fuld bredde -->
+<!--
+<svg width="100%" height="20" viewBox="0 0 1440 20">
+<path
+d="M0,10
+C200,0 400,20 600,10
+C800,0 1000,20 1200,10
+C1300,5 1380,15 1440,10"
+stroke="#d9a12d"
+stroke-width="3"
+fill="none"/>
+</svg>
+-->
+
+ <!-- Orange 2 buet linie fuld bredde 
+<svg width="100%" height="100" viewBox="0 0 1440 100">
+        <path
+        d="
+        M0,50
+        Q360,0 720,50
+        Q1080,100 1440,50
+        "
+        stroke="#d9a12d"
+        stroke-width="3"
+        fill="none"
+        />
+</svg>
+-->
+
+
+<!--
+                M0,0
+                L1,0
+                L1,0.5
+                C0.75,0.60 0.25,0.40 0,0.5
+------
+        L0,60
+        Q360,0 720,60
+        Q1080,120 1440,60
+        L1440,120
+        L0,120
+------
+                stroke="#d9a12d"
+                stroke-width="3"
+                fill="none"
+
+                 <clipPath id="waveClip" clipPathUnits="objectBoundingBox">
+
+-->
+
+<!-- Orange 2 buet linie fuld bredde 
+<svg width="100%" height="100" viewBox="0 0 1440 100">
+    <path
+        d="
+            M0,0
+            L1,0
+            L1,0.99
+            C0.50,1 0.50,0.75 0,0.95
+            Z"
+        stroke="#d9a12d"
+        stroke-width="3"
+        fill="none"
+    />
+</svg>
+ 
+<svg width="0" height="0">
+    <defs>
+        <clipPath id="waveClip" clipPathUnits="userSpaceOnUse">
+            <path d="
+                 M0,0
+                L1600,0
+                L1600,650
+
+                Q1200,750 800,650
+                Q400,550 0,650
+                Z"
+            />
+        </clipPath>
+    </defs>
+</svg>
+-->
+
+
+<!-- <svg class="wave-overlay" viewBox="0 0 1600 700" preserveAspectRatio="none">
+    <defs>
+        <!-- Vi gemmer selve bølge-formen her 
+        <path id="min-boelge" d="M1600,650 Q1200,750 800,650 Q400,550 0,650" />
+        <clipPath id="waveClip" clipPathUnits="userSpaceOnUse">
+            <path d="M0,0 L1600,0 L1600,650 Q1200,750 800,650 Q400,550 0,650 Z" />
+        </clipPath>
+    </defs>
+
+    <!-- Tegner stregen ud fra det gemte ID 
+    <use href="#min-boelge" stroke="#d9a12d" stroke-width="4" fill="none" />
+</svg> -->

@@ -157,6 +157,15 @@ header {
     align-items:center;*/
 }
 
+@media (max-width:768px){
+    .hero{
+        background-size:cover;
+        background-position:center;
+    }
+}
+
+
+
 
  .hero-content{
     /*width:50%;*/

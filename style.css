@@ -18,8 +18,8 @@ body{
 }
 
 .container{
-    width:100%;
-    max-width:1600px;
+    width:80%;
+    /*max-width:1600px;*/
     margin:auto;
 }
 
@@ -78,7 +78,7 @@ header {
     bottom: 0;
     left: 0;
     /*width: 1600px;*/
-    width:80%;
+    width:100%;
     /*height: 100px; /* Højden på din skråkant */
     z-index: 3; 
 }
@@ -336,7 +336,7 @@ header {
 /* DIGITAL */
 
 .digital-box{
-    width: 1400px; 
+    width:1400px; 
     background:#eaf0f7;
     border-radius:25px;
     padding:35px;
@@ -345,6 +345,14 @@ header {
     align-items:center;
     margin:60px auto;
 }
+
+
+@media (max-width:768px){
+    .digital-box{
+        width:1400px; 
+    }
+}
+
 
 .digital-icon{
     font-size:60px;
@@ -362,6 +370,8 @@ header {
 
 .contact{
     padding:40px 0 120px;
+    width:100%;
+    text-align:center;
 }
 
 .contact h2{
@@ -374,12 +384,13 @@ header {
 }
 
 .contact-row{
-    display:flex;
+    /*display:flex;*/
     flex-wrap:wrap;
     gap:40px;
     align-items:center;
     margin-bottom:40px;
     font-size:26px;
+    text-align:center;
 }
 
 /* FOOTER */

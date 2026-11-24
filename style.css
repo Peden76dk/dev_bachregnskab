@@ -245,21 +245,21 @@ h1,h2,h3{
 
     .hero-contact-info{
         flex-direction:column;
-        gap:12px;
+        gap:8px;
         text-align:center;
     }
 
     .hero-logo img{
-        width:80px;
+        width:250px;
     }
 
     .hero{
         min-height:auto;
-        padding-bottom:120px;
+        padding-bottom:0px;
     }
 
     .hero-content{
-        padding-top:80px;
+        padding-top:0px;
         text-align:center;
     }
 
@@ -271,7 +271,7 @@ h1,h2,h3{
     .hero-content p{
         /*font-size:22px;*/
         font-size:10px;
-        line-height:1.6;
+        /*line-height:1.6;*/
     }
 
     .about-grid{

@@ -264,11 +264,14 @@ h1,h2,h3{
     }
 
     .hero-content h1{
-        font-size:48px;
+        /*font-size:48px;*/
+        font-size:clamp(2rem, 5vw, 4rem);
     }
 
     .hero-content p{
-        font-size:22px;
+        /*font-size:22px;*/
+        font-size:18px;
+        line-height:1.6;
     }
 
     .about-grid{

@@ -15,25 +15,104 @@
 <body>
 
 <section class="hero">
-    <div class="container">
-        <div class="container topbar">
-            <div class="logo">
+
+    <svg class="hero-bg" viewBox="0 0 1536 1024"> 
+        <defs>
+            <clipPath id="waveClip">
+                <path d="
+                    M0,0
+                    L1536,0
+                    L1536,900
+                    Q1152,1024 768,900
+                    Q384,776 0,900
+                    Z"/>
+            </clipPath>
+            <linearGradient id="fadeLeft">
+                <stop offset="0%"   stop-color="white" stop-opacity="1"/>
+                <stop offset="20%"  stop-color="white" stop-opacity="0.95"/>
+                <stop offset="40%"  stop-color="white" stop-opacity="0.75"/>
+                <stop offset="60%"  stop-color="white" stop-opacity="0.45"/>
+                <stop offset="80%"  stop-color="white" stop-opacity="0.15"/>
+                <stop offset="100%" stop-color="white" stop-opacity="0"/>
+            </linearGradient>
+        </defs>
+        <!-- billede -->
+        <image
+            href="images/bach_coffeedesk.png"
+            width="1536"
+            height="1024"
+            clip-path="url(#waveClip)"
+        />
+        <!-- fade -->
+        <rect
+            width="1536"
+            height="1024"
+            fill="url(#fadeLeft)"
+            clip-path="url(#waveClip)"
+        />
+        <!-- gylden bølge -->
+        <path
+            d="M1536,900 Q1152,1024 768,900 Q384,776 -800,1050"
+            stroke="#d9a12d"
+            stroke-width="4"
+            fill="none"/>
+    </svg>
+<!--"M1536,900 Q1152,1024 768,900 Q384,776 0,900"-->
+
+
+
+    <div class="hero-container">
+        <div class="hero-topbar">
+            <div class="hero-logo">
                 <img src="images/logo.png" alt="Logo">
-            </div> <!--logo-->
-        <div class="contact-info">
+            </div> <!--hero-logo-->
+            <div class="hero-contact-info">
                 <span>📞 42 48 90 82</span>
                 <span>✉ <a href="mailto:bachregnskab@outlook.dk">bachregnskab@outlook.dk</a></span>
                 <a href="#kontakt" class="btn">Kontakt mig</a>
-            </div> <!--contact-info-->
-        </div> <!--container topbar-->
+            </div> <!--hero-contact-info-->
+        </div> <!--hero-topbar-->
 
 
-        <div class="header-content">
+        <div class="hero-content">
             <h1>Regnskab med ro,<br>overblik og personlig service</h1>
             <p> Jeg hjælper dig med bogføring, moms, regnskab og økonomi – så du kan fokusere på din virksomhed. </p>
             <a href="#kontakt" class="btn">Kontakt mig →</a>
-        </div>
-  
+        </div> <!--hero-content-->
+    </div> <!--hero-container-->
+
+<!--        
+<svg viewBox="0 0 1536 1024">
+
+    <defs>
+        <clipPath id="waveClip">
+            <path d="
+                M0,0
+                L1536,0
+                L1536,850
+                Q1152,950 768,850
+                Q384,750 0,850
+                Z"/>
+        </clipPath>
+    </defs>
+
+    <image
+        href="images/bach_coffeedesk.png"
+        width="1536"
+        height="1024"
+        clip-path="url(#waveClip)"
+    />
+
+    <path
+        d="M1536,850
+           Q1152,950 768,850
+           Q384,750 0,850"
+        stroke="#d9a12d"
+        stroke-width="4"
+        fill="none"/>
+</svg>
+-->
+<!--        
     <svg class="wave-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
         <defs>
             <path id="wave"
@@ -56,8 +135,9 @@
             stroke-width="0.5"
             fill="none"/>
     </svg>
+-->
 
-</div>
+</div> <!-- hero -->
 </section> <!-- end class="hero" -->
 
 

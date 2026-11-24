@@ -250,7 +250,7 @@ h1,h2,h3{
     }
 
     .hero-logo img{
-        width:180px;
+        width:80px;
     }
 
     .hero{
@@ -265,12 +265,12 @@ h1,h2,h3{
 
     .hero-content h1{
         /*font-size:48px;*/
-        font-size:clamp(2rem, 5vw, 4rem);
+        font-size:clamp(1rem, 2vw, 2rem);
     }
 
     .hero-content p{
         /*font-size:22px;*/
-        font-size:18px;
+        font-size:10px;
         line-height:1.6;
     }
 

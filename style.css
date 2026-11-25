@@ -1,6 +1,11 @@
 /* ===================================
    RESET
 =================================== */
+:root{
+    --blue:#0a2f6b;
+    --gold:#d9a12d;
+    --light:#f8f8f8;
+}
 
 *{
     margin:0;
@@ -24,8 +29,9 @@ img{
     display:block;
 }
 
-a{
-    text-decoration:none;
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 
@@ -46,11 +52,13 @@ h1,h2,h3{
 
 .btn{
     display:inline-block;
-    background:#0a2f6b;
+    background:var(--gold);
     color:white;
     padding:14px 30px;
-    border-radius:4px;
+    border-radius:40px;
+    text-decoration:none;
     font-weight:600;
+    font-size:18px;
     transition:0.3s;
 }
 
@@ -278,17 +286,23 @@ h1,h2,h3{
 
     .hero-content{
         text-align:left;
-        transform: translateY(180px);
+        /*transform: translateY(180px);*/
+        max-width:60%;
     }
 
     .hero-content h1{
         /*font-size:48px;*/
-        font-size:clamp(1rem, 2vw, 2rem);
+        font-size:clamp(2rem, 4vw, 3rem);
     }
 
     .hero-content p{
         /*font-size:22px;*/
-        font-size:10px;
+        font-size:clamp(1rem, 2vw, 2rem);
+        /*font-size:clamp(minimum, foretrukken, maksimum)
+            1rem = minimum størrelse (ca. 16px)
+            2vw = den ønskede størrelse (2% af skærmens bredde)
+            2rem = maksimum størrelse (ca. 32px)
+        */
         /*line-height:1.6;*/
     }
 

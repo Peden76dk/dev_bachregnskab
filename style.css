@@ -119,15 +119,15 @@ h1,h2,h3{
     display:flex;
     align-items:center;
     gap:35px;
-    font-size:20px;
-        white-space: nowrap;
+    /*font-size:20px;*/
+    white-space: nowrap;
 
 }
-
+/*
 .hero-contact-info a{
     color:#0a2f6b;
     text-decoration:none;
-}
+}*/
 
 /* ===================================
    HERO CONTENT
@@ -234,6 +234,19 @@ h1,h2,h3{
 
 @media (max-width:768px){
 
+
+/* ===================================
+   GENERAL (Mobil)
+=================================== */
+
+    .btn{
+        display:none;   /* Knapper vises ikke */
+    }
+
+/* ===================================
+   HERO (Mobil)
+=================================== */
+
     .hero-container{
         padding:0 20px;
     }
@@ -250,7 +263,7 @@ h1,h2,h3{
     }
 
     .hero-logo img{
-        width:90%;
+        width:100%;
     }
 
     .hero{
@@ -273,6 +286,10 @@ h1,h2,h3{
         font-size:10px;
         /*line-height:1.6;*/
     }
+
+/* ===================================
+   ABOUT (Mobil)
+=================================== */
 
     .about-grid{
         grid-template-columns:1fr;

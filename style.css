@@ -263,12 +263,16 @@ h1,h2,h3{
     }
 
     .hero-logo img{
-        width:100%;
+        width:120%;
     }
 
     .hero{
         min-height:auto;
         padding-bottom:0px;
+    }
+
+    .hero-bg{
+      top:100px;  
     }
 
     .hero-content{

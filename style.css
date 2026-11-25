@@ -263,7 +263,7 @@ h1,h2,h3{
     }
 
     .hero-logo img{
-        width:140%;
+        width:10%;
     }
 
     .hero{
@@ -272,7 +272,7 @@ h1,h2,h3{
     }
 
     .hero-bg{
-      top:700px;  
+       transform: translateY(180px);  /* lægger baggrundsbilledet x px ned ifht pc version*/
     }
 
     .hero-content{

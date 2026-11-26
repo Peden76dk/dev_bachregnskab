@@ -262,7 +262,7 @@ h1,h2,h3{
 
     .hero-bg{
        width:100%; 
-       transform: translateY(180px);  /* lægger baggrundsbilledet x px ned ifht pc version*/
+       transform: translateY(160px);  /* lægger baggrundsbilledet x px ned ifht pc version*/
     }
 
     .hero-container{
@@ -294,7 +294,7 @@ h1,h2,h3{
 
     .hero-content{
         text-align:left;
-        transform: translateY(1px);
+        /*transform: translateY(1px);*/
         max-width:75%;
     }
 
@@ -321,7 +321,7 @@ h1,h2,h3{
     .about-grid{
         grid-template-columns:1fr;
         gap:40px;
-        width:120%;
+        width:100%;
     }
 
     .about-text{

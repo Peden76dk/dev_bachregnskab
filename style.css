@@ -254,6 +254,14 @@ h1,h2,h3{
 /* ===================================
    HERO (Mobil)
 =================================== */
+    .hero{
+        min-height:auto;
+        padding-bottom:0px;
+    }
+
+    .hero-bg{
+       transform: translateY(180px);  /* lægger baggrundsbilledet x px ned ifht pc version*/
+    }
 
     .hero-container{
         width:120%;
@@ -261,6 +269,7 @@ h1,h2,h3{
     }
 
     .hero-topbar{
+        width:120%;
         flex-direction:column;
         gap:20px;
     }
@@ -272,21 +281,15 @@ h1,h2,h3{
     }
 
     .hero-logo img{ 
+        width:120%;
         align-items:center;    
     }
 
-    .hero{
-        min-height:auto;
-        padding-bottom:0px;
-    }
 
-    .hero-bg{
-       transform: translateY(180px);  /* lægger baggrundsbilledet x px ned ifht pc version*/
-    }
 
     .hero-content{
         text-align:left;
-        /*transform: translateY(180px);*/
+        transform: translateY(190px);
         max-width:75%;
     }
 

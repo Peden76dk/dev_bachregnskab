@@ -313,6 +313,7 @@ h1,h2,h3{
     .about-grid{
         grid-template-columns:1fr;
         gap:40px;
+        width:100%;
     }
 
     .about-text{

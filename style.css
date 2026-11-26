@@ -271,7 +271,7 @@ h1,h2,h3{
     }
 
     .hero-logo img{
-        width:100%;
+        width:120%;
         align-items:center;    
     }
 
@@ -287,7 +287,7 @@ h1,h2,h3{
     .hero-content{
         text-align:left;
         /*transform: translateY(180px);*/
-        max-width:60%;
+        max-width:75%;
     }
 
     .hero-content h1{

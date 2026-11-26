@@ -292,7 +292,7 @@ h1,h2,h3{
 
     .hero-content h1{
         /*font-size:48px;*/
-        font-size:clamp(2rem, 4vw, 3rem);
+        font-size:clamp(2rem, 4vw, 2rem);
     }
 
     .hero-content p{

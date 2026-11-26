@@ -262,7 +262,7 @@ h1,h2,h3{
 
     .hero-bg{
        width:100%; 
-       transform: translateY(160px);  /* lægger baggrundsbilledet x px ned ifht pc version*/
+       transform: translateY(120px);  /* lægger baggrundsbilledet x px ned ifht pc version*/
     }
 
     .hero-container{
@@ -300,12 +300,12 @@ h1,h2,h3{
 
     .hero-content h1{
         /*font-size:48px;*/
-        font-size:clamp(2rem, 4vw, 2rem);
+        font-size:clamp(1rem, 3vw, 2rem);
     }
 
     .hero-content p{
         /*font-size:22px;*/
-        font-size:clamp(1rem, 2vw, 2rem);
+        font-size:clamp(1rem, 2vw, 1rem);
         /*font-size:clamp(minimum, foretrukken, maksimum)
             1rem = minimum størrelse (ca. 16px)
             2vw = den ønskede størrelse (2% af skærmens bredde)
@@ -324,8 +324,15 @@ h1,h2,h3{
         width:100%;
     }
 
+    .about-image{
+           display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
     .about-text{
         text-align:center;
+         width:100%;
     }
 
     .about-text h2{

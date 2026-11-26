@@ -287,7 +287,7 @@ h1,h2,h3{
 
     .hero-content{
         text-align:left;
-        transform: translateY(10px);
+        transform: translateY(1px);
         max-width:75%;
     }
 
@@ -314,7 +314,7 @@ h1,h2,h3{
     .about-grid{
         grid-template-columns:1fr;
         gap:40px;
-        width:100%;
+        width:120%;
     }
 
     .about-text{

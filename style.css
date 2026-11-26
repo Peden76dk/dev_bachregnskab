@@ -256,6 +256,7 @@ h1,h2,h3{
 =================================== */
 
     .hero-container{
+        width:120%;
         padding:0 20px;
     }
 
@@ -270,8 +271,7 @@ h1,h2,h3{
         text-align:center;
     }
 
-    .hero-logo img{
-        width:120%;
+    .hero-logo img{ 
         align-items:center;    
     }
 

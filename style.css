@@ -275,17 +275,22 @@ h1,h2,h3{
         flex-direction:column;
         gap:20px;
     }
-
+    
+    .hero-logo{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+    
+    .hero-logo img{ 
+        width:100%;
+    }
     .hero-contact-info{
         flex-direction:column;
         gap:8px;
         text-align:center;
     }
 
-    .hero-logo img{ 
-        width:100%;
-        align-items:center;    
-    }
 
     .hero-content{
         text-align:left;

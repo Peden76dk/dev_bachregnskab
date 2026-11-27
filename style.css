@@ -492,7 +492,7 @@ h1,h2,h3{
     }
 
     .footer-logo img{
-        max-width:220px;
+        /*max-width:220px;*/
         height:auto;
         margin:0 auto;
     }

@@ -305,7 +305,7 @@ h1,h2,h3{
 
     .hero-content p{
         /*font-size:22px;*/
-        font-size:clamp(1rem, 1vw, 1rem);
+        font-size:clamp(0.5rem, 1vw, 0.75rem);
         width:65%;
         /*font-size:clamp(minimum, foretrukken, maksimum)
             1rem = minimum størrelse (ca. 16px)
